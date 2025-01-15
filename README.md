@@ -1,13 +1,15 @@
-#kfish
+# kfish
 
-Click to swim
-Double click to jump
-Watch your breath
+Click to swim - Double click to jump
+
+Watch your breath and catch all little fishes
+
 Dodge orange enemies
+
 Grab green speed bonus
+
 Red circles reverses
-Catch all little fishes
 
 Game designed for [JS13K](http://js13kgames.com)
 
-:fish: [Play now](http://rafaelcastrocouto.github.com/kfish)
+:fish: [Play now](http://rafaelcastrocouto.github.io/kfish)
