@@ -224,7 +224,7 @@ var Game = function () {
         open('http://github.com/rafaelcastrocouto/kfish', '_blank');
       });
       extras.button('Credits', function() {
-        open('http://codepen.io/rafaelcastrocouto/blog', '_blank');
+        open('https://github.com/rafaelcastrocouto', '_blank');
       });
       extras.button('Back', function () {
         menu.show();
