@@ -597,8 +597,8 @@ var Game = function () {
     if (status === 'play') {
       var now = new Date(),
           doubleClick = (now - lastClick < 300),
-          x = (e.layerX || (e.clientX - ui.offsetLeft)) / rw,
-          y = (e.layerY || (e.clientY - ui.offsetTop)) / rh,
+          x = (e.layerX || e.changedTouches[0].layerX || (e.clientX - ui.offsetLeft)) / rw,
+          y = (e.layerY || e.changedTouches[0].layerY || (e.clientY - ui.offsetTop)) / rh,
           f,
           n;
       lastClick = now;
