@@ -601,6 +601,7 @@ var Game = function () {
           y = (e.layerY || e.changedTouches[0].layerY || (e.clientY - ui.offsetTop)) / rh,
           f,
           n;
+      console.log(x,y);
       lastClick = now;
       e.preventDefault();
       if (doubleClick && breath.val >= 2) {
